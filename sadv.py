@@ -123,7 +123,7 @@ def adventure_generator():
                     challenge_idx += 1
 
         # Random secret room jump
-        if random.random() < 0.2:
+        if random.random() < 0.15:
             secret_room = random.randint(0, len(temple) - 1)
             if f"Room{secret_room}" not in visited:
                 room_idx = secret_room
