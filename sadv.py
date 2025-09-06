@@ -6,7 +6,7 @@ import random
 # Config
 # -----------------------------
 WAD_FILE = "game_data.wad"
-FORCE_GENERATE_WAD = True
+FORCE_GENERATE_WAD = False  # Set to True to regenerate WAD every run
 
 # -----------------------------
 # Helpers to read/write custom WAD
